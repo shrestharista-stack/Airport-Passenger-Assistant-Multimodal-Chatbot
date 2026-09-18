@@ -1,0 +1,41 @@
+id,text,intent,expected_category,pred_name,pred_category,score,correct
+1,Where is gate B12?,find_gate,gate,Gate B12,gate,0.639,True
+2,How do I get to gate A5?,find_gate,gate,Gate A5,gate,0.646,True
+3,I need directions to gate C8 in terminal 2,find_gate,gate,Gate C8,gate,0.625,True
+4,Which pier is gate B12 on?,find_gate,gate,Gate B12,gate,0.755,True
+5,How do I get to baggage claim?,baggage,baggage,Terminal 2 baggage claim,baggage,0.462,True
+6,Where is the baggage reclaim in terminal 1?,baggage,baggage,Terminal 2 baggage claim,baggage,0.702,True
+7,"My suitcase is on the carousel, which hall?",baggage,baggage,Restrooms Terminal 1 departures,restroom,0.274,False
+8,Where is the check in desk for international flights?,check_in,check_in,Terminal 1 check-in area,check_in,0.589,True
+9,Where do I drop my bags in terminal 2?,check_in,check_in,Terminal 1 check-in area,check_in,0.629,True
+10,What time does check-in open?,opening_hours,check_in,Terminal 2 check-in area,check_in,0.33,True
+11,Where is security?,security,security,Terminal 2 security control,security,0.461,True
+12,How long is the security queue in terminal 1?,security,security,Gate B12,gate,0.466,False
+13,Is there a lounge near terminal 2?,lounge,lounge,Riverside Lounge,lounge,0.656,True
+14,Where can I sit in a lounge after security?,lounge,lounge,Riverside Lounge,lounge,0.639,True
+15,Where can I find airport transport?,transport,transport,Airport train station,transport,0.46,True
+16,How do I get the train to the city?,transport,transport,Airport train station,transport,0.591,True
+17,Where is the bus stop?,transport,transport,Car rental desks,car_rental,0.455,False
+18,Where is the nearest information desk?,information,information,Terminal 2 information desk,information,0.602,True
+19,"I am lost, where can I ask for help?",information,information,First aid room,first_aid,0.397,False
+20,Is my flight delayed?,delay,NO_RECORD,Terminal 2 check-in area,check_in,0.282,False
+21,"The screens say a delay, what should I do?",delay,NO_RECORD,Terminal 1 check-in area,check_in,0.137,False
+22,Where is the taxi rank?,taxi,taxi,Taxi pickup zone,taxi,0.437,True
+23,I need a taxi from terminal 1,taxi,taxi,Car rental desks,car_rental,0.503,False
+24,Where are the toilets after security?,restroom,restroom,Restrooms Terminal 1 departures,restroom,0.682,True
+25,Is there an accessible toilet in terminal 1?,restroom,restroom,Restrooms Terminal 1 departures,restroom,0.658,True
+26,I need wheelchair help,accessibility,special_assistance,Special assistance desk,special_assistance,0.574,True
+27,Where is the special assistance desk?,accessibility,special_assistance,Special assistance desk,special_assistance,0.66,True
+28,"I lost my bag, where is lost and found?",lost_and_found,lost_and_found,Lost and found office,lost_and_found,0.519,True
+29,"Someone found my phone, where do I collect it?",lost_and_found,lost_and_found,Lost and found office,lost_and_found,0.36,True
+30,Where can I eat in terminal 1?,restaurant,restaurant,Food court Terminal 1,restaurant,0.515,True
+31,Is there a coffee shop after security in terminal 2?,restaurant,restaurant,Coffee shop Terminal 2,restaurant,0.794,True
+32,Where is the prayer room?,prayer_room,prayer_room,Multi-faith prayer room,prayer_room,0.716,True
+33,Is there a quiet place to pray?,prayer_room,prayer_room,Multi-faith prayer room,prayer_room,0.514,True
+34,Where can I change money?,currency_exchange,currency_exchange,Currency exchange,currency_exchange,0.33,True
+35,I need to hire a car,car_rental,car_rental,Car rental desks,car_rental,0.35,True
+36,Where is short stay parking?,parking,parking,Short stay parking,parking,0.59,True
+37,Is there a pharmacy in the airport?,pharmacy,pharmacy,Airport pharmacy,pharmacy,0.789,True
+38,"I feel unwell, where is first aid?",first_aid,first_aid,First aid room,first_aid,0.634,True
+39,What time does the information desk close?,opening_hours,information,Terminal 2 information desk,information,0.561,True
+40,Are the trains still running tonight?,opening_hours,transport,Airport train station,transport,0.235,True

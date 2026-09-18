@@ -1,0 +1,7 @@
+mode,label,expected,predicted_name,predicted_category,score,matched,correct
+text,text only,gate,Gate B12,gate,0.639,True,True
+voice,voice only,gate,Gate B12,gate,0.499,True,True
+image,image only,baggage,Terminal 1 baggage claim,baggage,1.0,True,True
+image+text,image + text,baggage,Terminal 1 baggage claim,baggage,0.744,True,True
+image+voice,image + voice,baggage,Terminal 2 baggage claim,baggage,0.731,True,True
+text,refuse,refuse,,,0.062,False,True

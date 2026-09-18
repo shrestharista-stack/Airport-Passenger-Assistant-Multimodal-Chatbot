@@ -1,0 +1,9 @@
+filename,text,intent
+tts_gate_b12.mp3,Where is gate B12?,find_gate
+tts_baggage.mp3,How do I get to baggage claim?,baggage
+tts_checkin.mp3,Where is the check in desk for international flights?,check_in
+tts_lounge.mp3,Is there a lounge near terminal 2?,lounge
+tts_transport.mp3,Where can I find airport transport?,transport
+tts_info.mp3,Where is the nearest information desk?,information
+tts_delay.mp3,Is my flight delayed?,delay
+tts_assist.mp3,I need wheelchair help,accessibility
