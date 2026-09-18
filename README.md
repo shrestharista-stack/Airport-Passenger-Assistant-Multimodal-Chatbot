@@ -12,3 +12,7 @@ Whisper: speech to text
 MiniLM + FAISS: Text
 
 Streamlit: User Interface
+
+# Usage Guideline
+
+Please upload the folder airport-assistant to google drive and grant access while loading google colab to successfully run the codes.
